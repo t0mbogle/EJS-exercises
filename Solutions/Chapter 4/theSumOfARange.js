@@ -1,5 +1,5 @@
 const range = (start, end, step = start < end ? 1 : -1) => {
-  // Step defaulted to 1 or -1 or no third param is given
+  // Step defaulted to 1 or -1 if third param is not provided
   let result = [];
   if (start < end) {
     while (start <= end) {
