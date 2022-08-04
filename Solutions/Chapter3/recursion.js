@@ -11,3 +11,18 @@ const isEven = n => {
   // → false
   console.log(isEven(-1));
   // → false
+
+
+// recursive function that counts from 1 to 10
+
+const oneToTen = (num) => {
+  console.log()
+  const updatedNum = num + 1
+
+  if (updatedNum < 10) {
+    oneToTen(updatedNum) 
+  }
+}
+
+oneToTen(1);
+// -> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10;
